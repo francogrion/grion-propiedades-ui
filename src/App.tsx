@@ -3,7 +3,7 @@ import './App.css';
 import { Footer } from './public/footer/Footer';
 import { Header } from './public/header/Header';
 
-const url = "http://localhost:8080/api/images";
+// const url = "http://localhost:8080/api/images";
 
 export interface ImageResponse {
   images: ImageItem[];
