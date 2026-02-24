@@ -3,7 +3,7 @@ import { RoutesNotFound } from './components/RoutesNotFound'
 import { PrivateGuard } from "./guard/PrivateGuard"
 import { AppRoutes } from './models'
 import { PrivateRouter } from './private/PivateRouter'
-import { AboutUs } from './public/about-us/AboutUs'
+import AboutUs from './public/about-us/AboutUs'
 import Contact from './public/contact/Contact'
 import FAQPage from './public/faq/faq'
 import Footer from './public/footer/Footer'
