@@ -37,6 +37,13 @@ export * from "./ui/pagination/Pagination";
 export * from "./ui/popover/Popover";
 export * from "./ui/progress/Progress";
 export * from "./ui/radio-group/RadioGroup";
+export * from "./ui/resizable/Resizable";
+export * from "./ui/scroll-area/ScrollArea";
+export * from "./ui/select/Select";
 export * from "./ui/separator/Separator";
+export * from "./ui/sheet/Sheet";
+export * from "./ui/sidebar/Sidebar";
+export * from "./ui/skeleton/Skeleton";
 export * from "./ui/text-area/TextArea";
+export * from "./ui/tooltip/Tooltip";
 
