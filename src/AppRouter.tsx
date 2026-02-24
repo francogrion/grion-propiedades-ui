@@ -5,6 +5,7 @@ import { AppRoutes } from './models'
 import { PrivateRouter } from './private/PivateRouter'
 import { AboutUs } from './public/about-us/AboutUs'
 import { Contact } from './public/contact/Contact'
+import { Footer } from './public/footer/Footer'
 import { Home } from './public/home/home'
 import { Login } from './public/login/Login'
 import { Properties } from './public/properties/Properties'
@@ -22,6 +23,7 @@ export const AppRouter = () => {
           <Route path={`${AppRoutes.private.root}/*`} element={<PrivateRouter />} />
         </Route>
       </RoutesNotFound >
+      <Footer/>
     </BrowserRouter>
   )
 }

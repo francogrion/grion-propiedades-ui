@@ -1,6 +1,5 @@
 import type { ReactNode } from 'react';
 import './App.css';
-import { Footer } from './public/footer/Footer';
 import { Header } from './public/header/Header';
 
 // const url = "http://localhost:8080/api/images";
@@ -44,7 +43,6 @@ function App({ children }: Props) {
     <>
       <Header/>
         {children}
-      <Footer/>
     </>
   )
 }
