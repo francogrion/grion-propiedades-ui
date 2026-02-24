@@ -52,5 +52,7 @@ export * from "./ui/table/Table";
 export * from "./ui/tabs/Tabs";
 export * from "./ui/text-area/TextArea";
 export * from "./ui/toast/Toast";
+export * from "./ui/toggle-group/ToggleGroup";
+export * from "./ui/toggle/Toggle";
 export * from "./ui/tooltip/Tooltip";
 
