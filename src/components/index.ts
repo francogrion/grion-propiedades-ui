@@ -29,6 +29,14 @@ export * from "./ui/input-group/InputGroup";
 export * from "./ui/input-otp/InputOtp";
 export * from "./ui/input/Input";
 export * from "./ui/item/Item";
+export * from "./ui/kbd/Kbd";
 export * from "./ui/label/Label";
+export * from "./ui/menubar/Menubar";
+export * from "./ui/navigation-menu/NavigationMenu";
+export * from "./ui/pagination/Pagination";
+export * from "./ui/popover/Popover";
+export * from "./ui/progress/Progress";
+export * from "./ui/radio-group/RadioGroup";
 export * from "./ui/separator/Separator";
 export * from "./ui/text-area/TextArea";
+
