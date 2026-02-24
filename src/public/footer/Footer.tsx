@@ -27,13 +27,13 @@ export function Footer() {
               <Link to="/" className="text-sm opacity-70 transition-opacity hover:opacity-100">
                 Inicio
               </Link>
-              <Link to="/propiedades" className="text-sm opacity-70 transition-opacity hover:opacity-100">
+              <Link to="/properties" className="text-sm opacity-70 transition-opacity hover:opacity-100">
                 Propiedades
               </Link>
-              <Link to="/nosotros" className="text-sm opacity-70 transition-opacity hover:opacity-100">
+              <Link to="/about-us" className="text-sm opacity-70 transition-opacity hover:opacity-100">
                 Nosotros
               </Link>
-              <Link to="/contacto" className="text-sm opacity-70 transition-opacity hover:opacity-100">
+              <Link to="/contact" className="text-sm opacity-70 transition-opacity hover:opacity-100">
                 Contacto
               </Link>
             </nav>
@@ -42,16 +42,16 @@ export function Footer() {
           <div className="flex flex-col gap-4">
             <h3 className="font-serif text-lg font-semibold">Propiedades</h3>
             <nav className="flex flex-col gap-2">
-              <Link to="/propiedades?category=lote" className="text-sm opacity-70 transition-opacity hover:opacity-100">
+              <Link to="/properties?category=lote" className="text-sm opacity-70 transition-opacity hover:opacity-100">
                 Lotes
               </Link>
-              <Link to="/propiedades?category=casa" className="text-sm opacity-70 transition-opacity hover:opacity-100">
+              <Link to="/properties?category=casa" className="text-sm opacity-70 transition-opacity hover:opacity-100">
                 Casas
               </Link>
-              <Link to="/propiedades?category=departamento" className="text-sm opacity-70 transition-opacity hover:opacity-100">
+              <Link to="/properties?category=departamento" className="text-sm opacity-70 transition-opacity hover:opacity-100">
                 Departamentos
               </Link>
-              <Link to="/propiedades?category=oficina" className="text-sm opacity-70 transition-opacity hover:opacity-100">
+              <Link to="/properties?category=oficina" className="text-sm opacity-70 transition-opacity hover:opacity-100">
                 Oficinas
               </Link>
             </nav>
