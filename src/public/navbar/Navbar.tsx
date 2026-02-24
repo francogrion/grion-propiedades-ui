@@ -1,6 +1,6 @@
 "use client"
 
-import { Button } from "@/components"
+import { Button, ThemeToggle } from "@/components"
 import { Menu, Phone, X } from "lucide-react"
 import { useState } from "react"
 import { Link } from "react-router-dom"
@@ -44,6 +44,7 @@ export function Navbar() {
             <Phone className="h-4 w-4" />
             +54 3525 500533
           </a>
+          <ThemeToggle />
           <Button asChild>
             <Link to="/contact">Contacto</Link>
           </Button>
@@ -102,6 +103,7 @@ export function Navbar() {
             </a>
             <div className="flex items-center gap-2 px-4 py-3">
               <span className="text-sm text-muted-foreground">Modo nocturno</span>
+              <ThemeToggle />
             </div>
           </nav>
         </div>

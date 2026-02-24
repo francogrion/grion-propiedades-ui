@@ -6,15 +6,15 @@ import { PrivateRouter } from './private/PivateRouter'
 import { AboutUs } from './public/about-us/AboutUs'
 import { Contact } from './public/contact/Contact'
 import { Footer } from './public/footer/Footer'
-import { Header } from './public/navbar/Navbar'
 import { Home } from './public/home/home'
 import { Login } from './public/login/Login'
+import { Navbar } from './public/navbar/NavBar'
 import { Properties } from './public/properties/Properties'
 
 export const AppRouter = () => {
   return (
     <BrowserRouter>
-      <Header/>
+      <Navbar/>
       <RoutesNotFound>
         <Route path={AppRoutes.home} element={<Home />} />
         <Route path={AppRoutes.properties} element={<Properties />} />
