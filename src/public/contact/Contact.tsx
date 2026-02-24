@@ -2,15 +2,16 @@
 
 import { Button, Input, Label, Textarea } from "@/components"
 import { Mail, MapPin, Phone, Send } from "lucide-react"
+import type { SubmitEvent } from "react"
 import { useState } from "react"
 
 export default function Contact() {
   const [submitted, setSubmitted] = useState(false)
 
-  function handleSubmit(e: React.FormEvent) {
-    e.preventDefault()
-    setSubmitted(true)
-  }
+function handleSubmit(e: SubmitEvent<HTMLFormElement>) {
+  e.preventDefault()
+  setSubmitted(true)
+}
 
   return (
     <div className="pt-20">
@@ -33,9 +34,9 @@ export default function Contact() {
           <div className="grid gap-12 lg:grid-cols-3 lg:gap-16">
             <div className="flex flex-col gap-8 lg:col-span-1">
               <div>
-                <h2 className="font-serif text-xl font-semibold text-foreground">Informacion de contacto</h2>
+                <h2 className="font-serif text-xl font-semibold text-foreground">Información de contacto</h2>
                 <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
-                  No dudes en contactarnos por cualquier consulta. Estamos disponibles de lunes a sabado.
+                  No dudes en contactarnos por cualquier consulta. Estamos disponibles de lunes a sábado.
                 </p>
               </div>
 
@@ -48,7 +49,7 @@ export default function Contact() {
                     <Phone className="h-5 w-5 text-primary" />
                   </div>
                   <div>
-                    <p className="text-sm font-semibold text-card-foreground">Telefono</p>
+                    <p className="text-sm font-semibold text-card-foreground">Teléfono</p>
                     <p className="text-sm text-muted-foreground">+54 3525 500533</p>
                   </div>
                 </a>
@@ -71,17 +72,17 @@ export default function Contact() {
                     <MapPin className="h-5 w-5 text-primary" />
                   </div>
                   <div>
-                    <p className="text-sm font-semibold text-card-foreground">Ubicacion</p>
+                    <p className="text-sm font-semibold text-card-foreground">Ubicación</p>
                     <p className="text-sm text-muted-foreground">Colonia Caroya, Cordoba, Argentina</p>
                   </div>
                 </div>
               </div>
 
               <div className="rounded-lg border border-border bg-primary/5 p-6">
-                <p className="text-sm font-semibold text-foreground">Horarios de atencion</p>
+                <p className="text-sm font-semibold text-foreground">Horarios de atención</p>
                 <div className="mt-3 flex flex-col gap-1.5 text-sm text-muted-foreground">
                   <p>Lunes a Viernes: 9:00 - 18:00</p>
-                  <p>Sabados: 9:00 - 13:00</p>
+                  <p>Sábados: Cerrado</p>
                   <p>Domingos: Cerrado</p>
                 </div>
               </div>
@@ -97,7 +98,7 @@ export default function Contact() {
                     Mensaje enviado
                   </h3>
                   <p className="max-w-md text-muted-foreground">
-                    Gracias por contactarnos. Te responderemos a la brevedad posible.
+                    Gracias por contactarnos. Te responderemos a la máxima brevedad posible.
                   </p>
                   <Button onClick={() => setSubmitted(false)} variant="outline" className="mt-4">
                     Enviar otro mensaje
@@ -109,7 +110,7 @@ export default function Contact() {
                     Envianos un mensaje
                   </h2>
                   <p className="mt-2 text-sm text-muted-foreground">
-                    Completa el formulario y nos pondremos en contacto contigo.
+                    Completá el formulario y nos pondremos en contacto vos.
                   </p>
 
                   <div className="mt-8 grid gap-6 sm:grid-cols-2">
