@@ -44,6 +44,13 @@ export * from "./ui/separator/Separator";
 export * from "./ui/sheet/Sheet";
 export * from "./ui/sidebar/Sidebar";
 export * from "./ui/skeleton/Skeleton";
+export * from "./ui/slider/Slider";
+export * from "./ui/sonner/Sonner";
+export * from "./ui/spinner/Spinner";
+export * from "./ui/switch/Switch";
+export * from "./ui/table/Table";
+export * from "./ui/tabs/Tabs";
 export * from "./ui/text-area/TextArea";
+export * from "./ui/toast/Toast";
 export * from "./ui/tooltip/Tooltip";
 
