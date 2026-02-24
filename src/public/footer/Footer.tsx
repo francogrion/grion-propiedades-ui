@@ -33,6 +33,9 @@ export default function Footer() {
               <Link to="/about-us" className="text-sm opacity-70 transition-opacity hover:opacity-100">
                 Nosotros
               </Link>
+              <Link to="/faq" className="text-sm opacity-70 transition-opacity hover:opacity-100">
+                Preguntas Frecuentes
+              </Link>
               <Link to="/contact" className="text-sm opacity-70 transition-opacity hover:opacity-100">
                 Contacto
               </Link>
