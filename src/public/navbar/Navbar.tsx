@@ -1,5 +1,3 @@
-"use client"
-
 import { Button, ThemeToggle } from "@/components"
 import { Menu, Phone, X } from "lucide-react"
 import { useState } from "react"

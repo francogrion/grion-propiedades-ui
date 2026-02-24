@@ -1,16 +1,14 @@
-'use client'
-
 import * as LabelPrimitive from '@radix-ui/react-label'
 import { Slot } from '@radix-ui/react-slot'
 import * as React from 'react'
 import {
-    Controller,
-    FormProvider,
-    useFormContext,
-    useFormState,
-    type ControllerProps,
-    type FieldPath,
-    type FieldValues,
+  Controller,
+  FormProvider,
+  useFormContext,
+  useFormState,
+  type ControllerProps,
+  type FieldPath,
+  type FieldValues,
 } from 'react-hook-form'
 
 import { Label } from '@/components'
@@ -156,8 +154,8 @@ function FormMessage({ className, ...props }: React.ComponentProps<'p'>) {
 }
 
 export {
-    Form, FormControl,
-    FormDescription, FormField, FormItem,
-    FormLabel, FormMessage, useFormField
+  Form, FormControl,
+  FormDescription, FormField, FormItem,
+  FormLabel, FormMessage, useFormField
 }
 

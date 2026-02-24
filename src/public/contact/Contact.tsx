@@ -1,5 +1,3 @@
-"use client"
-
 import { Button, Input, Label, Textarea } from "@/components"
 import { Mail, MapPin, Phone, Send } from "lucide-react"
 import type { SubmitEvent } from "react"
