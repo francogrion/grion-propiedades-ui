@@ -1,5 +1,5 @@
 import { Navigate, Route } from "react-router-dom"
-import { RoutesNotFound } from "../components/RoutesNotFound/RoutesNotFound"
+import { RoutesNotFound } from "../components/RoutesNotFound"
 import { AppRoutes } from "../models"
 import { Dashboard } from "./Dashboard/Dasboard"
 

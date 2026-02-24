@@ -1,5 +1,5 @@
 import { BrowserRouter, Route } from 'react-router-dom'
-import { RoutesNotFound } from './components/RoutesNotFound/RoutesNotFound'
+import { RoutesNotFound } from './components/RoutesNotFound'
 import { PrivateGuard } from "./guard/PrivateGuard"
 import { AppRoutes } from './models'
 import { PrivateRouter } from './private/PivateRouter'
