@@ -1,7 +1,7 @@
 import { Mail, MapPin, Phone } from "lucide-react"
 import { Link } from "react-router-dom"
 
-export function Footer() {
+export default function Footer() {
   return (
     <footer className="bg-foreground text-background">
       <div className="mx-auto max-w-7xl px-4 py-16 lg:px-8">
