@@ -1,7 +1,6 @@
-import App from './App'
-import './App.css'
-import { AppRouter } from './AppRouter'
-import { GlobalProvider } from './context/global.provider'
+import App from './App';
+import { AppRouter } from './AppRouter';
+import { GlobalProvider } from './context/global.provider';
 
 function AppHookContainer() {
   return (

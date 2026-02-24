@@ -1,4 +1,5 @@
 import { BrowserRouter, Route } from 'react-router-dom'
+import { ThemeProvider } from './components'
 import { RoutesNotFound } from './components/RoutesNotFound'
 import { PrivateGuard } from "./guard/PrivateGuard"
 import { AppRoutes } from './models'
@@ -15,6 +16,7 @@ import { Properties } from './public/properties/Properties'
 export const AppRouter = () => {
   return (
     <BrowserRouter>
+      <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange></ThemeProvider>
       <Navbar/>
       <RoutesNotFound>
         <Route path={AppRoutes.home} element={<Home />} />

@@ -1,5 +1,4 @@
 import type { ReactNode } from 'react';
-import './App.css';
 
 // const url = "http://localhost:8080/api/images";
 
