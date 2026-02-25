@@ -4,6 +4,7 @@ export const AppRoutes = {
   aboutUs: '/about-us',
   faq: '/faq',
   properties: '/properties',
+  property: '/properties/:id',
   login: '/login',
   private: {
     root: '/private',

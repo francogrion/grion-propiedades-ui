@@ -1,4 +1,6 @@
 export * from "./image/Image";
+export * from "./property-card/PropertyCard";
+export * from "./property-filters/PropertyFilters";
 export * from "./theme-provider";
 export * from "./theme-toggle";
 export * from "./ui/accordion/Accordion";
