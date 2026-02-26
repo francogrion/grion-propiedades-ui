@@ -1,5 +1,5 @@
 import { BrowserRouter, Route } from 'react-router-dom'
-import { ThemeProvider } from './components'
+import { ScrollToTop, ThemeProvider } from './components'
 import { RoutesNotFound } from './components/RoutesNotFound'
 import { PrivateGuard } from "./guard/PrivateGuard"
 import { AppRoutes } from './models'
@@ -20,6 +20,7 @@ export const AppRouter = () => {
       <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
         <Navbar/>
         <main>
+        <ScrollToTop />
         <RoutesNotFound>
           <Route path={AppRoutes.home} element={<Home />} />
           <Route path={AppRoutes.properties} element={<Properties />} />

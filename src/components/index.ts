@@ -7,6 +7,7 @@ export * from "./image/Image";
 export * from "./lots-section/LotsSection";
 export * from "./property-card/PropertyCard";
 export * from "./property-filters/PropertyFilters";
+export * from "./scroll-to-top/ScrollToTop";
 export * from "./ThemeProvider.tsx";
 export * from "./ThemeToggle.tsx";
 export * from "./ui/accordion/Accordion";
