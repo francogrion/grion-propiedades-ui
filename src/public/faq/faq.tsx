@@ -1,8 +1,8 @@
 import {
-    Accordion,
-    AccordionContent,
-    AccordionItem,
-    AccordionTrigger, Button
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger, Button
 } from "@/components"
 import { ArrowRight } from "lucide-react"
 import { Link } from "react-router-dom"
@@ -12,29 +12,34 @@ const faqCategories = [
     title: "Compra de Lotes",
     questions: [
       {
-        question: "¿Que documentacion necesito para comprar un lote?",
+        question: "¿Qué documentación necesito para comprar un lote?",
         answer:
-          "Para comprar un lote necesitas presentar tu DNI vigente, constancia de CUIL/CUIT, y comprobante de ingresos o actividad economica. Si vas a financiar la compra, tambien se requieren los ultimos recibos de sueldo o declaracion jurada de ganancias. Nuestro equipo te guia en cada paso del proceso.",
+          "Para comprar un lote necesitás presentar tu DNI vigente, constancia de CUIL/CUIT, y comprobante de ingresos o actividad económica. " + 
+          "Si vas a financiar la compra, también se requieren los últimos recibos de sueldo o declaración jurada de ganancias. Nuestro equipo te guia en cada paso del proceso.",
       },
       {
         question: "¿Ofrecen financiacion para la compra de lotes?",
         answer:
-          "Si, ofrecemos planes de financiacion flexibles adaptados a cada cliente. Podes acceder a planes en pesos con cuotas fijas o ajustables. Tambien trabajamos con creditos hipotecarios de entidades bancarias asociadas. Contactanos para conocer las opciones disponibles segun tu situacion.",
+          "Sí, ofrecemos planes de financiación flexibles adaptados a cada cliente. Podés acceder a planes en pesos con cuotas fijas o ajustables. También trabajamos con créditos hipotecarios de entidades bancarias asociadas. " + 
+          "Contactanos para conocer las opciones disponibles segun tu situacion.",
       },
       {
-        question: "¿Los lotes cuentan con servicios basicos?",
+        question: "¿Los lotes cuentan con servicios básicos?",
         answer:
-          "Todos nuestros lotes en loteos propios cuentan con apertura de calles, energia electrica, y agua corriente. Dependiendo de la ubicacion, algunos tambien incluyen gas natural, cloacas y alumbrado publico. En la ficha de cada propiedad se detallan los servicios disponibles.",
+          "Todos nuestros lotes en loteos propios cuentan con apertura de calles, energía eléctrica, y agua corriente. Dependiendo de la ubicacion, algunos también incluyen gas natural, cloacas y alumbrado público. " + 
+          "En la ficha de cada propiedad se detallan los servicios disponibles.",
       },
       {
         question: "¿Puedo visitar los lotes antes de comprar?",
         answer:
-          "Por supuesto. Coordinamos visitas de lunes a sabados en horarios flexibles. Te acompanamos personalmente al terreno para que puedas conocer la ubicacion, los limites del lote, el entorno y los servicios disponibles. Podes agendar tu visita por telefono o por WhatsApp.",
+          "Por supuesto. Coordinamos visitas de lunes a sábados en horarios flexibles. Te acompañamos personalmente al terreno para que puedas conocer la ubicación, los limites del lote, el entorno y los servicios disponibles. " + 
+          "Podés agendar tu visita por telefono o por WhatsApp.",
       },
       {
-        question: "¿Que gastos adicionales tiene la compra de un lote?",
+        question: "¿Qué gastos adicionales tiene la compra de un lote?",
         answer:
-          "Ademas del precio del lote, debes considerar los gastos de escrituracion (aproximadamente un 3-5% del valor), impuesto de sellos, y honorarios de escribano. En Grion Propiedades te brindamos un desglose detallado de todos los costos antes de concretar la operacion.",
+          "Además del precio del lote, debes considerar los gastos de escrituración (aproximadamente un 3-5% del valor), impuesto de sellos, y honorarios de escribano. " + 
+          "En Grion Propiedades te brindamos un desglose detallado de todos los costos antes de concretar la operación.",
       },
     ],
   },
@@ -42,9 +47,10 @@ const faqCategories = [
     title: "Alquiler de Propiedades",
     questions: [
       {
-        question: "¿Que requisitos se piden para alquilar?",
+        question: "¿Qué requisitos se piden para alquilar?",
         answer:
-          "Los requisitos basicos son: DNI del inquilino, garantia propietaria en Colonia Caroya o zona (o seguro de caucion), ultimos tres recibos de sueldo, y referencias personales. Para comercios se solicita documentacion adicional como habilitacion comercial y CUIT.",
+          "Los requisitos básicos son: DNI del inquilino, garantía propietaria en Colonia Caroya o zona (o seguro de caución), últimos tres recibos de sueldo, y referencias personales. " + 
+          "Para comercios se solicita documentación adicional como habilitación comercial y CUIT.",
       },
       {
         question: "¿Como se ajustan los alquileres?",
@@ -64,52 +70,31 @@ const faqCategories = [
     ],
   },
   {
-    title: "Venta de Propiedades",
-    questions: [
-      {
-        question: "¿Como puedo tasar mi propiedad?",
-        answer:
-          "Ofrecemos tasaciones gratuitas y sin compromiso. Uno de nuestros profesionales visita tu propiedad, evalua sus caracteristicas, ubicacion, estado de conservacion y las condiciones del mercado actual para darte un valor justo y competitivo. Podes solicitar una tasacion por telefono o WhatsApp.",
-      },
-      {
-        question: "¿Cuanto cobran de comision por la venta?",
-        answer:
-          "Nuestra comision por venta es la establecida por el Colegio de Corredores Inmobiliarios, que es del 3% + IVA sobre el valor de la operacion para cada parte (comprador y vendedor). Este porcentaje incluye toda la gestion comercial, legal y administrativa de la venta.",
-      },
-      {
-        question: "¿Que incluye el servicio de venta?",
-        answer:
-          "Nuestro servicio incluye: tasacion profesional, sesion de fotos y videos de alta calidad, publicacion en los principales portales inmobiliarios (Zonaprop, Argenprop, Mercado Libre), gestion de visitas, asesoramiento legal, acompanamiento en la negociacion y cierre de la operacion.",
-      },
-      {
-        question: "¿Necesito tener la escritura para vender?",
-        answer:
-          "Es altamente recomendable contar con la escritura, pero tambien se pueden vender propiedades con boleto de compraventa o con sucesion en tramite. En cada caso analizamos la situacion particular y te asesoramos sobre los pasos a seguir para regularizar la documentacion.",
-      },
-    ],
-  },
-  {
     title: "Sobre Grion Propiedades",
     questions: [
       {
-        question: "¿Cuantos anos de experiencia tienen?",
+        question: "¿Cuántos años de experiencia tienen?",
         answer:
-          "Grion Propiedades es una empresa familiar con mas de 30 anos de trayectoria en el mercado inmobiliario de Colonia Caroya y alrededores. Hemos desarrollado loteos, construido viviendas y gestionado cientos de operaciones de compraventa y alquiler en la zona.",
+          "Grion Propiedades es una empresa familiar con mas de 30 años de trayectoria en el mercado inmobiliario de Colonia Caroya y alrededores. " + 
+          "Hemos desarrollado loteos, construido viviendas y gestionado cientos de operaciones de compraventa y alquiler en la zona.",
       },
       {
-        question: "¿En que zonas trabajan?",
+        question: "¿En qué zonas trabajan?",
         answer:
-          "Trabajamos principalmente en Colonia Caroya, Jesus Maria, Sinsacate y localidades aledanas del norte de la provincia de Cordoba. Conocemos profundamente cada barrio, sus valores, su potencial de crecimiento y las particularidades de cada zona.",
+          "Trabajamos principalmente en Colonia Caroya, Jesus María, Sinsacate y localidades aledañas del norte de la provincia de Córdoba. " + 
+          "Conocemos profundamente cada barrio, sus valores, su potencial de crecimiento y las particularidades de cada zona.",
       },
       {
         question: "¿Puedo contactarlos fuera del horario de oficina?",
         answer:
-          "Si, podes enviarnos un mensaje por WhatsApp al +54 3525 500533 en cualquier momento y te responderemos a la brevedad. Nuestro horario de atencion presencial es de lunes a viernes de 9 a 13 y de 17 a 20, y sabados de 9 a 13.",
+          "Sí, podes enviarnos un mensaje por WhatsApp al +54 3525 500533 en cualquier momento y te responderemos a la brevedad. " + 
+          "Nuestro horario de atención presencial es de lunes a viernes de 9 a 13 y de 17 a 20.",
       },
       {
         question: "¿Ofrecen asesoramiento legal?",
         answer:
-          "Si, contamos con un equipo de abogados especializados en derecho inmobiliario que asesoran en cada operacion. Desde la revision de la documentacion hasta la firma de la escritura, garantizamos la seguridad juridica de todas nuestras transacciones.",
+          "Sí, contamos con un equipo de abogados especializados en derecho inmobiliario que asesoran en cada operación. " + 
+          "Desde la revisión de la documentación hasta la firma de la escritura, garantizamos la seguridad jurídica de todas nuestras transacciones.",
       },
     ],
   },
@@ -129,7 +114,7 @@ export default function FAQPage() {
               {"¿Tenes alguna duda?"}
             </h1>
             <p className="mt-4 text-pretty text-lg leading-relaxed text-muted-foreground">
-              Encontra las respuestas a las preguntas mas comunes sobre nuestros
+              Encontrá las respuestas a las preguntas más comunes sobre nuestros
               servicios, procesos de compra, venta y alquiler de propiedades.
             </p>
           </div>
@@ -175,7 +160,7 @@ export default function FAQPage() {
             {"¿No encontraste lo que buscabas?"}
           </h2>
           <p className="mx-auto mt-3 max-w-xl text-pretty text-lg leading-relaxed text-primary-foreground/80">
-            Estamos para ayudarte. Escribinos y te respondemos a la brevedad.
+            Estamos para ayudarte. Escribinos y te responderemos a la brevedad.
           </p>
           <Button
             asChild
