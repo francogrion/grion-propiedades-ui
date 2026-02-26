@@ -9,5 +9,6 @@ export const AppRoutes = {
   private: {
     root: '/private',
     dashboard: '/dashboard',
-  }
+  },
+  notFound: '/404'
 }

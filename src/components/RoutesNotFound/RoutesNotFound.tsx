@@ -1,3 +1,5 @@
+import { AppRoutes } from "@/models/routes.model"
+import NotFound from "@/public/not-found/NotFound"
 import type { ReactNode } from "react"
 import { Navigate, Route, Routes } from "react-router-dom"
 
@@ -9,8 +11,8 @@ export const RoutesNotFound = ({ children }: Props) => {
   return (
     <Routes>
       {children}
-      <Route path="*" element={<Navigate to="/404" />} />
-      <Route path="/404" element={<h1>Página no encontrada</h1>} />
+      <Route path="*" element={<Navigate to={AppRoutes.notFound} />} />
+      <Route path={AppRoutes.notFound} element={<NotFound />} />
     </Routes>
   )
 }

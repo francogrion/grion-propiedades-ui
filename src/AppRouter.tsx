@@ -19,6 +19,7 @@ export const AppRouter = () => {
     <BrowserRouter>
       <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
         <Navbar/>
+        <main>
         <RoutesNotFound>
           <Route path={AppRoutes.home} element={<Home />} />
           <Route path={AppRoutes.properties} element={<Properties />} />
@@ -31,6 +32,7 @@ export const AppRouter = () => {
             <Route path={`${AppRoutes.private.root}/*`} element={<PrivateRouter />} />
           </Route>
         </RoutesNotFound >
+        </main>
         <Footer/>
       </ThemeProvider>
     </BrowserRouter>
